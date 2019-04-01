@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Open+Sans|Roboto+Mono');
+
+html,body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    /* border: solid 1px gray; */
+    /* font-family: 'Baloo Chettan', cursive; */
+    border-radius: 5px;
+    /* position: relative; */
+}
+
+h2 {
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.red {
+    background: #FF483B;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    /* z-index: -1; */
+}
+
+.red span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    text-align: center; 
+}
+
+button {
+    margin-top: 25px;
+    border: white 1px solid;
+    border-radius: 20px;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    background: none;
+}
+
+
+.white {
+    color : black;
+    display: flex;
+    float: row;
+    background: white;
+    /* position: absolute; */
+}
+
+.welcome,.hello,.sign-in,.create {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+}
+
+.media {
+    border: 1px grey solid;
+    border-radius: 50%;
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+.white span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+.white input {
+    margin: 5px;
+    height: 10px;
+    padding: 10px;
+    width: 200px;
+    background: rgba(128, 128, 128, 0.199);
+    border: none;
+}
+
+.white button {
+    margin-top: 10px;
+    background: #FF483B;
+}
+
